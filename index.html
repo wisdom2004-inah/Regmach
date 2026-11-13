@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>Regmach | find your location </title>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<!-- Font Awesome Icons -->
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="nav-container">
+    
+    <a href="#" class="logo">
+      <i class="fa-solid fa-mountain-sun"></i>
+      <span>Regmach</span>
+      </a>
+        <nav class="nav-links">
+          <a href="#"class="active">home</a>
+        <a href="#destination">destination</a>
+          <a href="#guide">travel guide</a>
+          <a href="#about">about us </a>
+          <a href="#contact">contact</a>
+        </nav>
+        <div class="nav-action">
+          <button class="icon-btn" arial-label="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+          <a href="#" class="login-link">login</a>
+          <a href="#search" class="nav-button">plan your trip</a>
+          
+        </div>
+      </div>
+    
+  </header>
+  
+    <!--hero-section-->
+    <section class="hero" id="search">
+      <div class="hero-overlay"></div>
+      <div class="hero-container">
+      
+      <div class="hero-content">
+        <!--pill- badge-->
+        <span class="hero-tag">
+          <i class="fa-solid fa-plane"></i>
+          Explore.Discover.Travel
+        </span>
+        <!--big  title-->
+        <h1>
+          Find Your Next <br>
+          <span class="highlight">Amazing</span> Destination
+        </h1>
+          <!--subheading paragraph-->
+          <p>Explore breathtaking places, create unforgatable memories, experience the world like never before.</p>
+          <div class="search-panel">
+            <div class="search-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <div class="search-input-group">
+                <input type="text" id="destination" placeholder="where do you want to explore?☺️"> 
+                </div>
+          </div>
+          <div class="search-divider"></div>
+          <div class="search-item">
+              <i class="fa-regular fa-calendar"></i>
+              <div class="search-input-group">
+                <input type="text" id="checkin" placeholder="check In-check Out" onfocus="(this.type='date')"> 
+                </div>
+          </div>
+          <div class="search-divider"></div>
+            <div class="search-item">
+              <i class="fa-solid fa-user-group"></i>
+              <div class="search-input-group">
+                <select id="gues">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                </select> 
+                </div>
+          </div>
+          <button class="search-button" type="button">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <span>search</span>
+          </button>
+          </div>
+          <div class="popular-tags">
+            <span>popular-searches:</span>
+            <a href="#">lagos</a>
+            <a href="#">calabar</a>
+            <a href="#">Abuja</a>
+            <a href="#">ogun state</a>
+            <a href="#">obubura</a>
+          </div>
+          </div>
+          </div>
+      
+    </section>
+        
+      <!--Top Destination section-->
+      <section class="Destination-section" id="Destination">
+        <div class="section-container">
+            <!--section-header-->
+            <div class="section-header">
+              <div>
+                <h2>Top destination</h2>
+                <p>Discover some of the most beautiful places around the world</p>
+              </div>
+              <a href="#"class="view-all"> view all destinations
+              <i class="fa-solid fa-arrow-right"></i>
+              </a>
+              </div>
+                <!--Destination grid container-->
+                <div class="Destination-grid">
+                    <!--card 1:Tinnapa-->
+                    <div class="card">
+                      <div class="card-img">
+                        <img src="images/card11.jpg" alt="Tinnapa">
+                          <button class="wishlist-btn"><i class="fa-regular fa-heart"></i></button>
+                </div>
+                <div class="card-body">
+                  <div class="card-meta">
+                  <span class="location"><i  class="fa-solid fa-location-dot"></i>,cross river,nigeria</span>
+                  <span class="rating"><i class="fa-solid fa-star"></i>4.8(2.3k)</span>
+                </div>
+                <h3>Tinnapa</h3>
+                <div class="card-tags">
+                  <span><i class="fa-solid fa-plane"></i>flight</span>
+                  <span><i class="fa-solid fa-hotel"></i>hotel</span>
+                  <span><i class="fa-solid fa-utensils"></i>culture</span>
+                </div>
+                <div class="card-footer">
+                  <div class="price"><strong>$620</strong>/ person</div>
+                  <a href="#"class="card-btn"><i class="fa-solid fa-arrow-right"></i></a>
+                  </div>
+                  </div>
+                </div>
+                                    <!--card 2: lagos-->
+                    <div class="card">
+                      <div class="card-img">
+                        <img src="images/card2.jpg" alt="lekki conservation center">
+                          <button class="wishlist-btn"><i class="fa-regular fa-heart"></i></button>
+                </div>
+                <div class="card-body">
+                  <div class="card-meta">
+                  <span class="location"><i  class="fa-solid fa-location-dot"></i>lagos nigeria
+                  </span>
+                  <span class="rating"><i class="fa-solid fa-star"></i>4.9(3.1k)</span>
+                </div>
+                <h3>lagos city lekki center</h3>
+                <div class="card-tags">
+                  <span><i class="fa-solid fa-plane"></i>flight</span>
+                  <span><i class="fa-solid fa-hotel"></i>hotel</span>
+                  <span><i class="fa-solid fa-compass"></i>adventures</span>
+                </div>
+                <div class="card-footer">
+                  <div class="price"><strong>$750</strong>/ person</div>
+                  <a href="#"class="card-btn"><i class="fa-solid fa-arrow-right"></i></a>
+                  </div>
+                  </div>
+                </div>
+                                    <!--card 3:Zuma Rock-->
+                    <div class="card">
+                      <div class="card-img">
+                        <img src="images/card3.jpg" alt="Zuma Rock">
+                          <button class="wishlist-btn"><i class="fa-regular fa-heart"></i></button>
+                </div>
+                <div class="card-body">
+                  <div class="card-meta">
+                  <span class="location"><i  class="fa-solid fa-location-dot"></i>Abuja,nigeria</span>
+                  <span class="rating"><i class="fa-solid fa-star"></i>4.8(2.3k)</span>
+                </div>
+                <h3>Zuma Rock</h3>
+                <div class="card-tags">
+                  <span><i class="fa-solid fa-plane"></i>flight</span>
+                  <span><i class="fa-solid fa-hotel"></i>hotel</span>
+                  <span><i class="fa-solid fa-palette"></i>culture</span>
+                </div>
+                <div class="card-footer">
+                  <div class="price"><strong>$670</strong>/ person</div>
+                  <a href="#"class="card-btn"><i class="fa-solid fa-arrow-right"></i></a>
+                  </div>
+                  </div>
+                </div>
+                                    <!--card 4:Olumo Rock-->
+                    <div class="card">
+                      <div class="card-img">
+                        <img src="images/card4.jpg" alt="Olumo Rock">
+                          <button class="wishlist-btn"><i class="fa-regular fa-heart"></i></button>
+                </div>
+                <div class="card-body">
+                  <div class="card-meta">
+                  <span class="location"><i  class="fa-solid fa-location-dot"></i>ogun state</span>
+                  <span class="rating"><i class="fa-solid fa-star"></i>4.8(1.5k)</span>
+                </div>
+                <h3> Olumo Rock</h3>
+                <div class="card-tags">
+                  <span><i class="fa-solid fa-plane"></i>flight</span>
+                  <span><i class="fa-solid fa-hotel"></i>hotel</span>
+                  <span><i class="fa-solid fa-umbrella-beach"></i>Relaxation</span>
+                </div>
+                <div class="card-footer">
+                  <div class="price"><strong>$800</strong>/ person</div>
+                  <a href="#"class="card-btn"><i class="fa-solid fa-arrow-right"></i></a>
+                  </div>
+                  </div>
+                </div>
+                </section>
+            <!--features section-->
+            <section class="features-section">
+              <div class="section-container features-grid">
+      <div class="feature-item">
+        <div class="feature-icon"><i class="fa-solid fa-tag"></i></div> 
+        <div>
+          <h4>Best prices</h4>
+          <p>Get the most value of your money with our exclusive deals.</p>
+        </div>
+        </div>
+          <!--feature 2-->
+        <div class="feature-item">
+        <div class="feature-icon"><i class="fa-solid fa-shield-halved"></i></div> 
+        <div>
+          <h4>secure Booking</h4>
+          <p>Your information is saved with our trusted platform.</p>
+        </div>
+        </div>
+                  <!--feature 3-->
+        <div class="feature-item">
+        <div class="feature-icon"><i class="fa-solid fa-headset"></i></div> 
+        <div>
+          <h4>24/7 support</h4>
+          <p>we are always here to help,whereever you are.</p>
+        </div>
+        </div>
+                  <!--feature 4-->
+        <div class="feature-item">
+        <div class="feature-icon"><i class="fa-solid fa-thumbs-up"></i></div> 
+        <div>
+          <h4>trusted by millions</h4>
+          <p>join thousands of happy travelers around the country.</p>
+        </div>
+        </div>
+        </div>
+      </section>
+        <!--newsletter section-->
+        <section class="newsletter-section">
+          <div class="section-container newsletter-container">
+              <!--icon and text group-->
+              <div class="newsletter-content">
+                <div class="newsletter-icon">
+                  <i class="fa-regular fa-envelope"></i>
+                </div>
+                <div>
+                  <h3>Get travel inspiration</h3>
+                  <p>subscribe to our newsletter to get the  best travel deal,tips and stories straight to your inbox</p>
+                </div>
+              </div>
+                <!--input and submit form-->
+                <form class="newsletter-form">
+                  <input type="email" placeholder="enter your email address">
+                  <button type="submit">subscribe</button>
+                </form>
+          </div>
+        </section>
+      </body>
+      </html>
